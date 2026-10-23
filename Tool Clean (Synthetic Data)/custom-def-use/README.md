@@ -38,22 +38,6 @@ For each family N from 8 to 25 the source was compiled with `javac --release N` 
 
 | Family | Host JDK | Result |
 |---|---|---|
-| `java8` | JDK 25 host, `--release 8` | CLEAN -- `ORPHAN_DEFINITIONS=0` in all 3 methods |
 | `java9` | JDK 25 host, `--release 9` | CLEAN -- `ORPHAN_DEFINITIONS=0` in all 3 methods |
-| `java10` | JDK 25 host, `--release 10` | CLEAN -- `ORPHAN_DEFINITIONS=0` in all 3 methods |
-| `java11` | JDK 25 host, `--release 11` | CLEAN -- `ORPHAN_DEFINITIONS=0` in all 3 methods |
-| `java12` | JDK 25 host, `--release 12` | CLEAN -- `ORPHAN_DEFINITIONS=0` in all 3 methods |
-| `java13` | JDK 25 host, `--release 13` | CLEAN -- `ORPHAN_DEFINITIONS=0` in all 3 methods |
-| `java14` | JDK 25 host, `--release 14` | CLEAN -- `ORPHAN_DEFINITIONS=0` in all 3 methods |
-| `java15` | JDK 25 host, `--release 15` | CLEAN -- `ORPHAN_DEFINITIONS=0` in all 3 methods |
-| `java16` | JDK 25 host, `--release 16` | CLEAN -- `ORPHAN_DEFINITIONS=0` in all 3 methods |
-| `java17` | JDK 25 host, `--release 17` | CLEAN -- `ORPHAN_DEFINITIONS=0` in all 3 methods |
-| `java18` | JDK 25 host, `--release 18` | CLEAN -- `ORPHAN_DEFINITIONS=0` in all 3 methods |
-| `java19` | JDK 25 host, `--release 19` | CLEAN -- `ORPHAN_DEFINITIONS=0` in all 3 methods |
-| `java20` | JDK 25 host, `--release 20` | CLEAN -- `ORPHAN_DEFINITIONS=0` in all 3 methods |
-| `java21` | JDK 25 host, `--release 21` | CLEAN -- `ORPHAN_DEFINITIONS=0` in all 3 methods |
-| `java22` | JDK 25 host, `--release 22` | CLEAN -- `ORPHAN_DEFINITIONS=0` in all 3 methods |
-| `java23` | JDK 25 host, `--release 23` | CLEAN -- `ORPHAN_DEFINITIONS=0` in all 3 methods |
-| `java24` | JDK 25 host, `--release 24` | **FINDING** -- ASM 9.7 cannot read class file major version 68 |
-| `java25` | JDK 25 (native) | **FINDING** -- ASM 9.7 cannot read class file major version 69 |
 
+This repo carries only the `java9` family.
